@@ -1,0 +1,12 @@
+.container-fluid{
+    height: calc(100vh);
+    position: relative;
+    .img{
+        width: 100%;
+        position: absolute;
+        top:0;
+        left:0;
+        height: calc(100vh);
+        object-fit: cover;
+    }
+}
